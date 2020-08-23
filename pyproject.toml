@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "data-engineering"
+version = "0.1.0"
+description = ""
+authors = ["Brian Thomas Ross <ml@brianthomasross.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6.9"
+tweepy = "^3.9.0"
+environs = "^8.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
